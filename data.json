@@ -1,0 +1,2232 @@
+{
+  "metadata": {
+    "title": "OMR Reviews - Vendor Intelligence Dashboard",
+    "description": "Aggregated insights from chat interactions where users discussed Hubspot Marketing Hub, requirements, and concerns. Each data point includes dimensional attributes for filtering.",
+    "version": "2.0",
+    "generated_date": "2024-12-15",
+    "total_conversations": 15847,
+    "date_range": "2024-Q1 to 2024-Q4"
+  },
+  "dimensions": {
+    "companySize": [
+      "Startup (1-10)",
+      "Small (11-50)",
+      "Medium (51-200)",
+      "Large (201-1000)",
+      "Enterprise (1000+)"
+    ],
+    "industry": [
+      "E-Commerce",
+      "Media & Marketing",
+      "Finance & Banking",
+      "SaaS & Technology",
+      "Education",
+      "Consulting"
+    ],
+    "quarter": [
+      "2024-Q1",
+      "2024-Q2",
+      "2024-Q3",
+      "2024-Q4"
+    ]
+  },
+  "questions": [
+    {
+      "questionId": "q1",
+      "questionNumber": 1,
+      "question": "Which productivity tools are currently used by users evaluating HubSpot Marketing Hub?",
+      "questionType": "multi_response",
+      "description": "Aggregated responses extracted from conversations with users who evaluated HubSpot Marketing Hub and showed high purchase intent. Reflects the productivity software users reported using in their current stack.",
+      "data": [
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Google Workspace",
+          "numResponses": 15
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Google Workspace",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Google Workspace",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Google Workspace",
+          "numResponses": 12
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Google Workspace",
+          "numResponses": 18
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Google Workspace",
+          "numResponses": 21
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Google Workspace",
+          "numResponses": 24
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Google Workspace",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Google Workspace",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Google Workspace",
+          "numResponses": 26
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Google Workspace",
+          "numResponses": 23
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Google Workspace",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Google Workspace",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Google Workspace",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Google Workspace",
+          "numResponses": 15
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Google Workspace",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Google Workspace",
+          "numResponses": 24
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Google Workspace",
+          "numResponses": 30
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Google Workspace",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Microsoft 365",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Microsoft 365",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Microsoft 365",
+          "numResponses": 52
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Microsoft 365",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Microsoft 365",
+          "numResponses": 48
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Microsoft 365",
+          "numResponses": 27
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Microsoft 365",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Microsoft 365",
+          "numResponses": 44
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Microsoft 365",
+          "numResponses": 56
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Microsoft 365",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Microsoft 365",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Microsoft 365",
+          "numResponses": 49
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Microsoft 365",
+          "numResponses": 58
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Microsoft 365",
+          "numResponses": 46
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Microsoft 365",
+          "numResponses": 37
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Microsoft 365",
+          "numResponses": 46
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Microsoft 365",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Microsoft 365",
+          "numResponses": 42
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Microsoft 365",
+          "numResponses": 51
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Microsoft 365",
+          "numResponses": 48
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Slack",
+          "numResponses": 45
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Slack",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Slack",
+          "numResponses": 55
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Slack",
+          "numResponses": 63
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Slack",
+          "numResponses": 49
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Slack",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Slack",
+          "numResponses": 52
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Slack",
+          "numResponses": 58
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Slack",
+          "numResponses": 67
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Slack",
+          "numResponses": 55
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Slack",
+          "numResponses": 44
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Slack",
+          "numResponses": 61
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Slack",
+          "numResponses": 59
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Slack",
+          "numResponses": 53
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Slack",
+          "numResponses": 56
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Slack",
+          "numResponses": 69
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Slack",
+          "numResponses": 57
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Slack",
+          "numResponses": 47
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Slack",
+          "numResponses": 62
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Slack",
+          "numResponses": 59
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Notion",
+          "numResponses": 25
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Notion",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Notion",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Notion",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Notion",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Notion",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Notion",
+          "numResponses": 26
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Notion",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Notion",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Notion",
+          "numResponses": 24
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Notion",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Notion",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Notion",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Notion",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Notion",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Notion",
+          "numResponses": 25
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Notion",
+          "numResponses": 37
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Notion",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Notion",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Notion",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Airtable",
+          "numResponses": 15
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Airtable",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Airtable",
+          "numResponses": 18
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Airtable",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Airtable",
+          "numResponses": 12
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Airtable",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Airtable",
+          "numResponses": 24
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Airtable",
+          "numResponses": 21
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Airtable",
+          "numResponses": 26
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Airtable",
+          "numResponses": 14
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Airtable",
+          "numResponses": 17
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Airtable",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Airtable",
+          "numResponses": 23
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Airtable",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Airtable",
+          "numResponses": 18
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Airtable",
+          "numResponses": 16
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Airtable",
+          "numResponses": 25
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Airtable",
+          "numResponses": 27
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Airtable",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Airtable",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Monday.com",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Monday.com",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Monday.com",
+          "numResponses": 37
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Monday.com",
+          "numResponses": 42
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Monday.com",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Monday.com",
+          "numResponses": 26
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Monday.com",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Monday.com",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Monday.com",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Monday.com",
+          "numResponses": 27
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Monday.com",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Monday.com",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Monday.com",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Monday.com",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Monday.com",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Monday.com",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Monday.com",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Monday.com",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Monday.com",
+          "numResponses": 36
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Monday.com",
+          "numResponses": 33
+        }
+      ]
+    },
+    {
+      "questionId": "q2",
+      "questionNumber": 2,
+      "question": "Which integration and feature requirements were most frequently highlighted?",
+      "questionType": "multi_response",
+      "description": "Structured data derived from conversations with users evaluating HubSpot Marketing Hub. Shows the most frequently mentioned integration and feature requirements, such as API access, automation compatibility, or CRM interoperability.",
+      "data": [
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "REST API Access",
+          "numResponses": 15
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "REST API Access",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "REST API Access",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "REST API Access",
+          "numResponses": 42
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "REST API Access",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "REST API Access",
+          "numResponses": 18
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "REST API Access",
+          "numResponses": 25
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "REST API Access",
+          "numResponses": 34
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "REST API Access",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "REST API Access",
+          "numResponses": 45
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "REST API Access",
+          "numResponses": 21
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "REST API Access",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "REST API Access",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "REST API Access",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "REST API Access",
+          "numResponses": 48
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "REST API Access",
+          "numResponses": 24
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "REST API Access",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "REST API Access",
+          "numResponses": 27
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "REST API Access",
+          "numResponses": 36
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "REST API Access",
+          "numResponses": 43
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Zapier Integration",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Zapier Integration",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Zapier Integration",
+          "numResponses": 48
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Zapier Integration",
+          "numResponses": 52
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Zapier Integration",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Zapier Integration",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Zapier Integration",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Zapier Integration",
+          "numResponses": 44
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Zapier Integration",
+          "numResponses": 47
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Zapier Integration",
+          "numResponses": 55
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Zapier Integration",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Zapier Integration",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Zapier Integration",
+          "numResponses": 46
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Zapier Integration",
+          "numResponses": 53
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Zapier Integration",
+          "numResponses": 58
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Zapier Integration",
+          "numResponses": 34
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Zapier Integration",
+          "numResponses": 27
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Zapier Integration",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Zapier Integration",
+          "numResponses": 49
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Zapier Integration",
+          "numResponses": 51
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Webhooks",
+          "numResponses": 12
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Webhooks",
+          "numResponses": 18
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Webhooks",
+          "numResponses": 25
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Webhooks",
+          "numResponses": 34
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Webhooks",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Webhooks",
+          "numResponses": 14
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Webhooks",
+          "numResponses": 21
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Webhooks",
+          "numResponses": 27
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Webhooks",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Webhooks",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Webhooks",
+          "numResponses": 16
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Webhooks",
+          "numResponses": 23
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Webhooks",
+          "numResponses": 30
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Webhooks",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Webhooks",
+          "numResponses": 42
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Webhooks",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Webhooks",
+          "numResponses": 15
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Webhooks",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Webhooks",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Webhooks",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 42
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 55
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 48
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 51
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 26
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 44
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 52
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 47
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 36
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 30
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Competitive Pricing",
+          "numResponses": 24
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 25
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 45
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 36
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 43
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 34
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 26
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 27
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "HubSpot Integration",
+          "numResponses": 23
+        }
+      ]
+    },
+    {
+      "questionId": "q3",
+      "questionNumber": 3,
+      "question": "Which concerns or objections were raised during evaluations?",
+      "questionType": "multi_response",
+      "description": "Summarizes common pain points and objections raised by users in conversations while evaluating HubSpot Marketing Hub. These may relate to pricing, feature gaps, usability, or comparisons with current solutions.",
+      "data": [
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 52
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 25
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 58
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 36
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 44
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Data Privacy & Security",
+          "numResponses": 51
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 18
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 45
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 25
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 48
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 42
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 21
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 51
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 36
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 44
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 27
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 23
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 47
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Lack of Integrations",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Too Expensive",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Too Expensive",
+          "numResponses": 42
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Too Expensive",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Too Expensive",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Too Expensive",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Too Expensive",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Too Expensive",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Too Expensive",
+          "numResponses": 44
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Too Expensive",
+          "numResponses": 26
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Too Expensive",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Too Expensive",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Too Expensive",
+          "numResponses": 37
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Too Expensive",
+          "numResponses": 18
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Too Expensive",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Too Expensive",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Too Expensive",
+          "numResponses": 24
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Too Expensive",
+          "numResponses": 36
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Too Expensive",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Too Expensive",
+          "numResponses": 21
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Too Expensive",
+          "numResponses": 15
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 25
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 21
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 24
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 27
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 36
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 30
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 26
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Poor Customer Support",
+          "numResponses": 37
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q1",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 22
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q1",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q1",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 42
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q1",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 28
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Education",
+          "quarter": "2024-Q1",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 19
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Consulting",
+          "quarter": "2024-Q1",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 31
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q2",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 39
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q2",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 45
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q2",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 33
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q2",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 26
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "Education",
+          "quarter": "2024-Q2",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 24
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Consulting",
+          "quarter": "2024-Q2",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 38
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q3",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 41
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q3",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 37
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Finance & Banking",
+          "quarter": "2024-Q3",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 29
+        },
+        {
+          "companySize": "Startup (1-10)",
+          "industry": "SaaS & Technology",
+          "quarter": "2024-Q3",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 35
+        },
+        {
+          "companySize": "Small (11-50)",
+          "industry": "Education",
+          "quarter": "2024-Q4",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 32
+        },
+        {
+          "companySize": "Medium (51-200)",
+          "industry": "Consulting",
+          "quarter": "2024-Q4",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 44
+        },
+        {
+          "companySize": "Large (201-1000)",
+          "industry": "E-Commerce",
+          "quarter": "2024-Q4",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 36
+        },
+        {
+          "companySize": "Enterprise (1000+)",
+          "industry": "Media & Marketing",
+          "quarter": "2024-Q4",
+          "responseValue": "Complicated User Interface",
+          "numResponses": 27
+        }
+      ]
+    }
+  ]
+}
