@@ -1,157 +1,146 @@
-# Frontend Take-Home Challenge: Insights Dashboard
+# Frontend Take-Home Challenge: HubSpot Marketing Hub Insights Dashboard
 
-## Company Context
-You're joining **OMR Reviews** as a **Frontend Developer**. We're building next-generation market intelligence tools that help businesses make better software decisions. This challenge simulates real work you'd do - creating data visualization dashboards that turn complex conversation data into actionable insights.
+## Quick Start
 
-**The Scenario:** Our AI systems have analyzed customer conversations about marketing automation tools, extracting structured insights about user preferences, requirements, and concerns. Your job is to make this data accessible and actionable through an interactive dashboard.
+This is a **4-hour frontend challenge** for OMR Reviews. You'll build an interactive dashboard visualizing HubSpot evaluation insights.
 
----
+**TL;DR**: Vue 3 + Chart.js dashboard with filtering. Incomplete solutions are expected and encouraged!
 
-## The Challenge
+## What's Included
 
-**Your Mission:** Build a Vue.js dashboard that enables users to explore productivity tool insights through interactive filtering and data visualization.
-
-**Core Requirements:**
-- Process and visualize multi-dimensional data
-- Implement dynamic filtering across multiple chart types  
-- Create professional data visualizations
-- Demonstrate clean component architecture and modern Vue.js practices
-
----
-
-## Technical Constraints
-
-| Constraint | Requirement |
-|------------|-------------|
-| **Framework** | Vue 3 + Nuxt 3 (Composition API) |
-| **Styling** | Tailwind CSS |
-| **Charts** | Chart.js for visualizations |
-| **Expected Effort** | ~4 hours |
-| **Browser Support** | Chrome desktop |
-| **Additional Libraries** | Use any appropriate tools and libraries that help you succeed |
-
----
-
-## Dataset Overview
-
-You'll work with **real conversation data** from the provided `data.json` file.
-
-**Data Structure:**
-- **3 Questions** about productivity tools, requirements, and concerns
-- **Multi-dimensional data** filterable by:
-  - **Company Size:** Startup (1-10), Small (11-50), Medium (51-200), Large (201-1000), Enterprise (1000+)
-  - **Industry:** E-Commerce, Media & Marketing, Finance & Banking, SaaS & Technology, Education, Consulting  
-  - **Quarter:** 2024-Q1, Q2, Q3, Q4
-
-**Question 1 - Tools Used:** 
-```json
-{
-  "companySize": "Startup (1-10)",
-  "industry": "E-Commerce", 
-  "quarter": "2024-Q1",
-  "responseValue": "Google Workspace",
-  "numResponses": 12
-}
 ```
-**Question 2 - Requirements:** Simple strings like `"REST API Access"`, `"Zapier Integration"`
+project/
+├── data.json          # HubSpot evaluation dataset (~15k conversations)
+├── README.md          # This file - setup instructions
+└── CHALLENGE.md       # Detailed requirements and evaluation criteria
+```
 
-**Question 3 - Concerns:** Simple strings like `"Too Expensive"`, `"Data Privacy & Security"`
+## Setup Instructions
+
+### 1. Create New Nuxt Project
+
+```bash
+# Create project
+npx nuxi@latest init hubspot-dashboard
+cd hubspot-dashboard
+
+# Install dependencies
+npm install
+
+# Add required packages
+npm install chart.js lodash
+npm install -D @types/lodash
+```
+
+### 2. Add the Data File
+
+Place the provided `data.json` file in your project root:
+
+```
+hubspot-dashboard/
+├── data.json          # <- Put the provided file here
+├── nuxt.config.ts
+└── ...
+```
+
+### 3. Configure TypeScript (Optional but Recommended)
+
+The challenge includes TypeScript interfaces - copy them from `CHALLENGE.md` or create your own.
+
+### 4. Development
+
+```bash
+# Start development server
+npm run dev
+
+# Your app will be at http://localhost:3000
+```
+
+## What You're Building
+
+**Core Task**: Interactive dashboard with one Chart.js visualization and basic filtering
+
+**Required Routes**:
+- `/` - Dashboard with chart and filters
+- `/about` - Your progress documentation (very important!)
+
+**Tech Stack**:
+- Vue 3 + Nuxt 3 (Composition API)
+- Chart.js for visualizations  
+- Tailwind CSS for styling
+- TypeScript (recommended)
+
+## Data Overview
+
+The `data.json` contains real conversation data from users evaluating HubSpot Marketing Hub:
+
+- **15,847 total conversations** across 2024 quarters
+- **3 questions** with response data:
+  - Q1: Current productivity tools being used
+  - Q2: Integration requirements 
+  - Q3: Evaluation concerns
+- **Filterable by**: Company size, industry, quarter
+
+**Pick ONE question** to visualize - you don't need all three!
+
+## Success Criteria
+
+✅ **One working chart** displaying HubSpot data  
+✅ **Basic filtering** that updates the chart  
+✅ **Detailed About page** documenting your approach  
+✅ **Clean code structure** with good component design
+
+**Important**: A working chart + great documentation beats multiple broken features!
+
+## Time Expectations
+
+This is designed for **~4 hours** with AI assistance. Most candidates will not finish everything - that's completely normal and expected.
+
+**Suggested Timeline**:
+- Hour 1: Setup + basic chart
+- Hour 2: Data processing + aggregation  
+- Hour 3: Filtering implementation
+- Hour 4: Documentation + polish
+
+## AI Development Tips
+
+Feel free to use Cursor, Claude, GitHub Copilot, etc. Some helpful prompts:
+
+```
+"Set up a basic Nuxt 3 project with TypeScript - keep it simple"
+"Create a Vue 3 composable that loads and filters HubSpot data"  
+"Build a simple Chart.js bar chart component with TypeScript"
+"Use Lodash to aggregate numResponses by responseValue for filtered data"
+```
+
+## Getting Help
+
+**Stuck on something?** Document it in your About page:
+- What you tried
+- What didn't work  
+- What you'd do next
+
+This kind of problem-solving documentation is valuable for evaluation!
+
+## Evaluation Focus
+
+We care more about:
+- **Clear thinking** and problem-solving approach
+- **Progress documentation** (even if incomplete)  
+- **Code quality** over feature quantity
+- **Realistic scope** management
+
+Less about:
+- Pixel-perfect design
+- Complete feature implementation
+- Advanced Chart.js features
+
+## Questions?
+
+If anything is unclear, make reasonable assumptions and document them in your About page.
+
+**Ready?** Read through `CHALLENGE.md` for detailed requirements, then start coding!
 
 ---
 
-## Your Assignment
-
-### **A. Core Visualizations**
-**Must Build (Required):**
-1. **Tools Chart** - Bar chart from Question 1 data showing productivity tools by usage frequency
-2. **Requirements Chart** - Bar chart from Question 2 data showing requirement types by frequency
-
-
-### **B. Data Processing & Filtering**
-Build a filtering system that works across all visualizations by the **dimensional attributes**:
-- **Company Size:** Startup, Small, Medium, Large, Enterprise
-- **Industry:** E-Commerce, Media & Marketing, Finance & Banking, SaaS & Technology, Education, Consulting  
-- **Quarter:** 2024-Q1, Q2, Q3, Q4
-
-**Important:** Filters should segment the data by these dimensions (e.g., "Show only Enterprise companies in Finance sector for Q3"), not filter the response values themselves (tools, requirements, concerns).
-
-### **C. Application Structure**
-- **Dashboard Route** (`/`) - Main interface with filters + charts
-- **About Route** (`/about`) - Technical decisions and assumptions
-- **Component Architecture** - Clean, reusable components
-
-### **D. Polish & Documentation**
-- Code cleanup and optimization
-- About page explaining your approach
-- Optional: Animations, tooltips, advanced features
-
----
-
-## What to Submit
-
-**Required Deliverables:**
-1. **Working Vue 3 + Nuxt 3 application** with the dashboard functionality
-2. **Source code** organized however you prefer (we don't dictate structure)
-3. **README with setup instructions** - how to install and run your app
-4. **About page** (`/about` route) explaining your technical approach and any assumptions
-
-**What We'll Test:**
-- Navigate to your dashboard (`/` route)
-- Use the filter elements to see data update across charts
-- View your about page to understand your approach
-- Review your code organization and implementation
-
----
-
-## What We're Evaluating
-
-**Must-Have (Core Assessment):**
-- Vue 3 Composition API proficiency
-- Data processing and state management
-- Chart.js implementation skills  
-- Project architecture and structure
-
-**Bonus Points:**
-- Creative data parsing solutions
-- Smooth user experience (animations, loading states)
-- Smart default filtering (e.g., latest quarter selected)
-- Advanced Chart.js features (tooltips, interactions)
-- Clean code organization and naming
-
-**Not Required:**
-- Perfect visual design (focus on functionality)
-- Comprehensive error handling
-- Unit tests (explain strategy in About page if time allows)
-
----
-
-## Getting Started
-
-**Time Management Strategy:**
-1. **Setup** (30 min) - Project initialization, basic routing
-2. **Core Charts** (90 min) - Build charts with data aggregation and Chart.js implementation
-3. **Data & Filtering** (60 min) - Add interactive filters that update charts
-4. **Layout & UI** (30 min) - Layout and styling
-5. **Polish** (30 min) - About page, final touches
-
-**Data Processing:** All three questions use simple responseValue strings that can be used directly for chart categories. The main challenge is filtering and aggregating the data based on the dimensional attributes (company size, industry, quarter).
-
-**Library Freedom:** While we've specified core technologies (Vue 3, Nuxt 3, Tailwind, Chart.js), feel free to use any additional tools and libraries that make you more productive. This could include data processing libraries (**Danfo.js**, **Arquero**, **Data-Forge**, **pandas-js**), state management solutions (**Pinia**, **Vuex**), utility libraries (**Lodash**, **Ramda**), or any other tools that help you build a better solution.
-
----
-
-## Success Context
-
-This challenge reflects real work at OMR Reviews. We regularly build dashboards that help users understand market data. We value:
-
-- **Practical thinking** over perfect architecture
-- **Clean, maintainable code** that teammates can understand
-- **Realistic scope management** given time constraints
-
-**Remember:** A working dashboard with 2 solid charts is better than an incomplete one with 3 ambitious features.
-
----
-
-*Ready to dive in? We're excited to see your approach to this data visualization challenge!*
-
-**Questions?** Focus on functionality first, then enhance if time allows. Good luck!
+*Remember: This simulates real work at OMR Reviews. In production, similar dashboards take multiple days. Focus on showing us how you think and solve problems!*
