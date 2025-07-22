@@ -3,7 +3,7 @@
 ## Company Context
 You're joining **OMR Reviews** as a **Frontend Developer**. We're building next-generation market intelligence tools that help businesses make better software decisions. This challenge simulates real work you'd do - creating data visualization dashboards that turn complex conversation data into actionable insights.
 
-**The Scenario:** Our AI systems have analyzed 15,847 customer conversations about productivity tools, extracting structured insights about user preferences, requirements, and concerns. Your job is to make this data accessible and actionable through an interactive dashboard.
+**The Scenario:** Our AI systems have analyzed customer conversations about marketing automation tools, extracting structured insights about user preferences, requirements, and concerns. Your job is to make this data accessible and actionable through an interactive dashboard.
 
 ---
 
