@@ -7,10 +7,8 @@
 1. **Read CHALLENGE.md completely** (10-15 minutes)
 2. **Understand the data structure** and sample JSON
 3. **Choose which question (Q1, Q2, or Q3) you'll visualize**
-4. **Plan your multi-select approach** (checkboxes? dropdowns?)
+4. **Plan your multi-select approach** (checkboxes? dropdowns? pills with active state?)
 5. **THEN start setup**
-
-Senior developers read requirements thoroughly before coding. Don't skip this step!
 
 ---
 
