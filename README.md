@@ -12,7 +12,7 @@ You're joining **OMR Reviews** as a **Frontend Developer**. We're building next-
 **Your Mission:** Build a Vue.js dashboard that enables users to explore productivity tool insights through interactive filtering and data visualization.
 
 **Core Requirements:**
-- Process and visualize complex multi-dimensional data
+- Process and visualize multi-dimensional data
 - Implement dynamic filtering across multiple chart types  
 - Create professional data visualizations
 - Demonstrate clean component architecture and modern Vue.js practices
@@ -142,7 +142,7 @@ Build a filtering system that works across all visualizations by the **dimension
 
 ## Success Context
 
-This challenge reflects real work at OMR Reviews. We regularly build dashboards that help users understand complex market data. We value:
+This challenge reflects real work at OMR Reviews. We regularly build dashboards that help users understand market data. We value:
 
 - **Practical thinking** over perfect architecture
 - **Clean, maintainable code** that teammates can understand
