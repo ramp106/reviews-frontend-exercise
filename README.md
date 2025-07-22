@@ -1,10 +1,24 @@
-# Frontend Take-Home Challenge: HubSpot Marketing Hub Insights Dashboard
+# OMR Reviews – Frontend Take-Home Challenge: HubSpot Marketing Hub Insights Dashboard
+
+## 🚨 IMPORTANT: Read Before Coding!
+
+**STOP** - Before you create any files or install anything:
+
+1. **Read CHALLENGE.md completely** (10-15 minutes)
+2. **Understand the data structure** and sample JSON
+3. **Choose which question (Q1, Q2, or Q3) you'll visualize**
+4. **Plan your multi-select approach** (checkboxes? dropdowns?)
+5. **THEN start setup**
+
+Senior developers read requirements thoroughly before coding. Don't skip this step!
+
+---
 
 ## Quick Start
 
 This is a **4-hour frontend challenge** for OMR Reviews. You'll build an interactive dashboard visualizing HubSpot evaluation insights.
 
-**TL;DR**: Vue 3 + Chart.js dashboard with filtering. Incomplete solutions are expected and encouraged!
+**TL;DR**: Vue 3 + Chart.js dashboard with multi-select filtering. Incomplete solutions are expected and encouraged!
 
 ## What's Included
 
@@ -12,7 +26,7 @@ This is a **4-hour frontend challenge** for OMR Reviews. You'll build an interac
 project/
 ├── data.json          # HubSpot evaluation dataset (~15k conversations)
 ├── README.md          # This file - setup instructions
-└── CHALLENGE.md       # Detailed requirements and evaluation criteria
+└── CHALLENGE.md       # Detailed requirements and evaluation criteria (READ THIS FIRST!)
 ```
 
 ## Setup Instructions
@@ -28,8 +42,7 @@ cd hubspot-dashboard
 npm install
 
 # Add required packages
-npm install chart.js lodash
-npm install -D @types/lodash
+npm install chart.js pandas-js
 ```
 
 ### 2. Add the Data File
@@ -58,11 +71,11 @@ npm run dev
 
 ## What You're Building
 
-**Core Task**: Interactive dashboard with one Chart.js visualization and basic filtering
+**Core Task**: Interactive dashboard with one Chart.js visualization and multi-select filtering
 
 **Required Routes**:
-- `/` - Dashboard with chart and filters
-- `/about` - Your progress documentation (very important!)
+- `/` - Dashboard with chart and multi-select filters
+- `/about` - Your progress documentation (very important - 50% of evaluation!)
 
 **Tech Stack**:
 - Vue 3 + Nuxt 3 (Composition API)
@@ -79,16 +92,16 @@ The `data.json` contains real conversation data from users evaluating HubSpot Ma
   - Q1: Current productivity tools being used
   - Q2: Integration requirements 
   - Q3: Evaluation concerns
-- **Filterable by**: Company size, industry, quarter
+- **Filterable by**: Company size, industry, quarter (multi-select for each!)
 
 **Pick ONE question** to visualize - you don't need all three!
 
 ## Success Criteria
 
-✅ **One working chart** displaying HubSpot data  
-✅ **Basic filtering** that updates the chart  
-✅ **Detailed About page** documenting your approach  
-✅ **Clean code structure** with good component design
+- **One working chart** displaying HubSpot data  
+- **Multi-select filtering** for at least one dimension (company size OR industry OR quarter)
+- **Detailed About page** documenting your approach  
+- **Clean code structure** with good component design
 
 **Important**: A working chart + great documentation beats multiple broken features!
 
@@ -97,21 +110,12 @@ The `data.json` contains real conversation data from users evaluating HubSpot Ma
 This is designed for **~4 hours** with AI assistance. Most candidates will not finish everything - that's completely normal and expected.
 
 **Suggested Timeline**:
+- 20 min: Reading requirements thoroughly
 - Hour 1: Setup + basic chart
 - Hour 2: Data processing + aggregation  
-- Hour 3: Filtering implementation
+- Hour 3: Multi-select filtering implementation
 - Hour 4: Documentation + polish
 
-## AI Development Tips
-
-Feel free to use Cursor, Claude, GitHub Copilot, etc. Some helpful prompts:
-
-```
-"Set up a basic Nuxt 3 project with TypeScript - keep it simple"
-"Create a Vue 3 composable that loads and filters HubSpot data"  
-"Build a simple Chart.js bar chart component with TypeScript"
-"Use Lodash to aggregate numResponses by responseValue for filtered data"
-```
 
 ## Getting Help
 
@@ -129,6 +133,7 @@ We care more about:
 - **Progress documentation** (even if incomplete)  
 - **Code quality** over feature quantity
 - **Realistic scope** management
+- **Following instructions** (including reading them properly!)
 
 Less about:
 - Pixel-perfect design
@@ -139,7 +144,7 @@ Less about:
 
 If anything is unclear, make reasonable assumptions and document them in your About page.
 
-**Ready?** Read through `CHALLENGE.md` for detailed requirements, then start coding!
+**Next Step**: Read through `CHALLENGE.md` thoroughly for detailed requirements, then start coding!
 
 ---
 
