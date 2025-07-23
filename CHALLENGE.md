@@ -539,7 +539,7 @@ This kind of documentation is **valuable** and shows great engineering practices
 
 ## Final Reminders
 
-**This Simulates Real Work**: At OMR Reviews, similar dashboards often take multiple days. Don't stress about finishing everything!
+**This Simulates Real Work**: At OMR Reviews, more advanced dashboard logic take multiple days. Don't stress about finishing everything!
 
 **Quality Over Quantity**: One working chart with great multi-select filtering and documentation beats three broken charts.
 
